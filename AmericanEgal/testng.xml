@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ 
+	<listeners>
+		<listener class-name="Iblesoft.AmericanEgal.ITestListnersclass1"></listener>
+	</listeners>
+	
+	
+  <test name="Test1">
+    <classes>
+      <class name="Iblesoft.AmericanEgal.Testcls">
+      <methods>
+		  <include name="lnc"></include>
+		  <include name="pretest"></include>
+		   <include name="pickup"></include>
+	  </methods>
+	  </class>
+    </classes>
+  </test> <!-- Test -->
+  </suite> <!-- Suite -->

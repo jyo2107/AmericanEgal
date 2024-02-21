@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	<listeners>
+		<listener class-name="com.screenshot.ITestListnersclass"></listener>
+	</listeners>
+	
+	
+  <test name="Login">
+    <classes>
+      <class name="com.screenshot.Testcls">
+      <methods>
+		  <include name="lnc"></include>
+	  </methods>
+	  </class>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="prealert">
+    <classes>
+		<class name="com.screenshot.Testcls">
+      <methods>
+		  <include name="pretest"></include>
+	  </methods>
+	  </class>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="pickuporder">
+    <classes>
+		<class name="com.screenshot.Testcls">
+      <methods>
+		  <include name="pickup"></include>
+	  </methods>
+	  </class>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+</suite> <!-- Suite -->
